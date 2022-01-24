@@ -126,5 +126,5 @@ Implementar una clase `CatalogoLibrosXML` con sus métodos y propiedades. Usa lo
 - `constructor(cargador:String)`: Debe abortar si el fichero no existe o es incorrecto.
 - `existeLibro(idLibro:String): Boolean`: Devuelve true si existe, `false` en caso contrario.
 - `infoLibro(idLibro:String): Map<String,Any>`: Devuelve un `Map` con los atributos y valores del libro. Devolverá
-  un `Map` vacío en caso contrario.
+  un `Map`  vacío en caso contrario.
  */
