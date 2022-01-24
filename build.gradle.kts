@@ -15,7 +15,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    dokkaHtmlPlugin("org.jetbrains.dokka:kotlin-as-java-plugin:1.6.10")
+    implementation("org.junit.jupiter:junit-jupiter:5.8.2")
+    implementation("com.google.code.gson:gson:2.8.9") // GSON -> DataClass
+    implementation("io.github.microutils:kotlin-logging-jvm:2.1.21") // LOGGER
+    implementation("org.slf4j:slf4j-simple:1.7.33") // LOGGER
 }
 
 tasks.test {
